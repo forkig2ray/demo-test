@@ -10,5 +10,18 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "orderStatuses": [
+    { "code": 1, "description": "پرداخت ناموفق" },
+    { "code": 2, "description": "کنسل شده با پرداخت" },
+    { "code": 3, "description": "کنسل شده پرداخت نقدی" },
+    { "code": 4, "description": "ثبت شده در انتظار تایید (زیر 10 دقیقه)" },
+    { "code": 5, "description": "ثبت شده نیاز به پیگیری (بالای ده دقیقه)" },
+    { "code": 6, "description": "در حال آماده سازی" },
+    { "code": 7, "description": "درحال ارسال" },
+    { "code": 8, "description": "آماده سازی با تاخیر" },
+    { "code": 9, "description": "ارسال با تاخیر" },
+    { "code": 10, "description": "به اتمام رسیده" },
+    { "code": -1, "description": "نیاز به تماس" }
+  ]
 }
